@@ -1,0 +1,41 @@
+body {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5; 
+    color: #333; 
+    display: flex;               
+    flex-direction: column;      
+    justify-content: center;     
+    align-items: center;         
+    height: 100vh;              
+}
+
+#myButton, #Reset {
+    font-size: 3em;
+    padding: 10px 40px;
+    border-radius: 8px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#myButton:hover, #Reset:hover {
+    background-color: #45a049;
+    transform: scale(1.05); 
+}
+
+#labelContainer {
+    display: flex;             
+    justify-content: center;   
+    margin: 20px 0;           
+}
+
+.myLabels {
+    font-size: 5em;
+    margin: 0 15px;          
+    color: #555; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); 
+}
